@@ -6,7 +6,7 @@ local localPlayer = Players.LocalPlayer
 
 local function hookPlayer(player)
     player.Chatted:Connect(function(msg)
-        if msg:lower() == ".dupe" then
+        if msg:lower() == ".k" then
             -- ONLY kicks the exploiter
             localPlayer:Kick("Scammer get scammed stupid poop hacker")
         end
